@@ -1,0 +1,30 @@
+.add-button {
+  background-color: #20b9ff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #20b9ff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.add-button:hover {
+  background-color: #6bb7c7;
+}
+
+.add-button:active {
+  background-color: #6bb7c7;
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid;
+}

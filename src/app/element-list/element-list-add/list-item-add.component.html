@@ -1,0 +1,13 @@
+<div class="add">
+  <button class="add-button" (click)="toggleInputVisibility()">
+    <ng-container *ngIf="!inputVisibility; else other">+</ng-container>
+    <ng-template #other>-</ng-template>
+  </button>
+  <input *ngIf="inputVisibility; else info" class="new-element"
+         placeholder="Object name"
+         autofocus=""
+         [(ngModel)]="element"
+         (keyup.enter)="addElement()">
+
+  <ng-template #info>Add more objects</ng-template>
+</div>
